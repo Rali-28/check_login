@@ -1,3 +1,3 @@
-// Asks the user for an Identification
-let userInput = prompt("Who are you?");
+// Asks the user for Username
+let userInput = prompt("Username");
 
