@@ -15,16 +15,20 @@ if (userName == null || userName == false) {
  * removes case sensitivity
  */
 else if (userName.toUpperCase() == "ADMIN") {
-
     // Asks for the password and stores the data of the user input
-    let userPassword = prompt("Password")
+    let userPassword = prompt("Password");
 
     // * Conditionals that checks for the correct password after correct username was put in
 
     // Runs if user input is The Master, case sensitive
     // Welcomes the User
     if (userPassword == "TheMaster") {
-        alert("Welcome!")
+        alert("Welcome!");
+    } 
+
+    // Runs if user pressed cancel or left the input empty
+    else if (userPassword == null || userPassword == false) {
+        alert("Cancelled");
     }
 }
 
