@@ -1,7 +1,5 @@
 // Asks the user for Username
 let userInput = prompt("Username");
-// Converts user input to all Uppercase Letters
-userInput = userInput.toUpperCase();
 
 // * Conditionals to check for the user input and renders respective outputs
 // Runs if user input is ADMIN (case sensitive)
