@@ -24,7 +24,7 @@ else if (userName.toUpperCase() == "ADMIN") {
     // Welcomes the User
     if (userPassword == "TheMaster") {
         alert("Welcome!");
-    } 
+    }
 
     // Runs if user pressed cancel or left the input empty
     else if (userPassword == null || userPassword == false) {
@@ -33,7 +33,7 @@ else if (userName.toUpperCase() == "ADMIN") {
 
     // Runs if user typed the wrong password
     else {
-        alert("Wrong Password! \nCase Sensitive!")
+        alert("Wrong Password! \nCase Sensitive!");
     }
 }
 
