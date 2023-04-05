@@ -8,8 +8,13 @@ if (userInput == null || userInput == false) {
     alert("Cancelled");
 }
 
-// Runs if user input is ADMIN (case sensitive)
-else if (userInput == "ADMIN") {
+// Runs if user input is ADMIN
+/**
+ * Converts all user input letters to uppercase
+ * user can disregard letter case as long as "admin" is the input
+ * removes case sensitivity
+ */
+else if (userInput.toUpperCase() == "ADMIN") {
     alert("Welcome");
 }
 
