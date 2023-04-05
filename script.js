@@ -30,6 +30,11 @@ else if (userName.toUpperCase() == "ADMIN") {
     else if (userPassword == null || userPassword == false) {
         alert("Cancelled");
     }
+
+    // Runs if user typed the wrong password
+    else {
+        alert("Wrong Password! \nCase Sensitive!")
+    }
 }
 
 // Runs if user has entered the wrong input != ADMIN
