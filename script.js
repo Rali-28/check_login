@@ -1,10 +1,10 @@
 // Asks the user for Username
-let userInput = prompt("Username");
+let userName = prompt("Username");
 
 // * Conditionals to check for the user input and renders respective outputs
 
 // Runs if user pressed cancel or left the input empty
-if (userInput == null || userInput == false) {
+if (userName == null || userInput == false) {
     alert("Cancelled");
 }
 
@@ -14,7 +14,7 @@ if (userInput == null || userInput == false) {
  * user can disregard letter case as long as "admin" is the input
  * removes case sensitivity
  */
-else if (userInput.toUpperCase() == "ADMIN") {
+else if (userName.toUpperCase() == "ADMIN") {
     alert("Welcome");
 }
 
