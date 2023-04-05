@@ -1,6 +1,9 @@
 # check_login
 Task for creating a basic login flow using if-else and logical operators
 
+#### Inputs if you want to test out the functions:
+- username: admin (not case sensitive)
+- password: TheMaster (case sensitive)
 ### Flow Chart
 
 This is [javacscript.info task](https://javascript.info/task/check-login) that practices
