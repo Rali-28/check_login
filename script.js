@@ -15,7 +15,7 @@ if (userName == null || userInput == false) {
  * removes case sensitivity
  */
 else if (userName.toUpperCase() == "ADMIN") {
-    alert("Welcome");
+    // * Conditionals that checks for the correct password after correct username was put in
 }
 
 // Runs if user has entered the wrong input != ADMIN
