@@ -20,6 +20,12 @@ else if (userName.toUpperCase() == "ADMIN") {
     let userPassword = prompt("Password")
 
     // * Conditionals that checks for the correct password after correct username was put in
+
+    // Runs if user input is The Master, case sensitive
+    // Welcomes the User
+    if (userPassword == "TheMaster") {
+        alert("Welcome!")
+    }
 }
 
 // Runs if user has entered the wrong input != ADMIN
