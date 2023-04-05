@@ -4,7 +4,7 @@ let userName = prompt("Username");
 // * Conditionals to check for the user input and renders respective outputs
 
 // Runs if user pressed cancel or left the input empty
-if (userName == null || userInput == false) {
+if (userName == null || userName == false) {
     alert("Cancelled");
 }
 
