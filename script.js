@@ -15,6 +15,10 @@ if (userName == null || userInput == false) {
  * removes case sensitivity
  */
 else if (userName.toUpperCase() == "ADMIN") {
+
+    // Asks for the password and stores the data of the user input
+    let userPassword = prompt("Password")
+
     // * Conditionals that checks for the correct password after correct username was put in
 }
 
